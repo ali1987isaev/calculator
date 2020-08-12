@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+  height: 300px;
+  width: 200px;
+  background-color: rgb(124, 190, 221);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 1);
+  padding: 5px;
+}
+.header{
+  height: 100px;
+  border-bottom: 1px solid #777;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.screen{
+  font-size: 40px;
+  padding: 10px;
+  font-weight: 800;
+  color: #e6671d;
+  height: 70px;
+  width: 100%;
+  background-color: #ebebeb;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+.clearValue{
+  border-radius: 60%;
+  outline: 0;
+  border: none;
+  background-color: tomato;
+  color: #fff;
+}
+.clearValue:active{
+  background-color: rgb(248, 84, 55);
+  transform: scale(0.98);
+}
+.rows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row{
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcButton{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #777;
+  outline: 0;
+}
+.calcButton:last-child{
+  margin-right: 0;
+}
+.calcButton:active{
+  transform: scale(0.98);
+  background-color: #aaa;
+}
